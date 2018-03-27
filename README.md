@@ -6,13 +6,13 @@ OpenID ConnectプロトコルをサポートしたLINEログインv2.1で、ア�
 
 1.LINEディベロッパーズでチャンネルを作成し、チャネルID、チャネルシークレットを取得してください。
 
-1.LINEディベロッパーズの [アプリ設定] - [リダイレクト設定] でCallback URLを指定します。
+2.LINEディベロッパーズの [アプリ設定] - [リダイレクト設定] でCallback URLを指定します。
 
-1.config.php の YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_REDIRECT_URI を置き換えてください。
+3.config.php の YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, YOUR_REDIRECT_URI を置き換えてください。
 
-1.index.php, config.php, callback.php を https:// でアクセスできる所にアップロードしてください。
+4.index.php, config.php, callback.php を https:// でアクセスできる所にアップロードしてください。
 
-1.https://example.com/index.php にアクセスし、LINEアカウントでログインし、許可するとユーザーIDが取得できます。
+5.https://example.com/index.php にアクセスし、LINEアカウントでログインし、許可するとユーザーIDが取得できます。
 
 ## 参考情報
 
